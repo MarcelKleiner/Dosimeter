@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Dosimeter-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -985,7 +986,7 @@ DB2
 Text Label 2700 6650 0    50   ~ 0
 DB3
 $Comp
-L Dosimeter-rescue:LCD_NHD-0108CZ-MK_LCD U6
+L MK_LCD:LCD_NHD-0108CZ U6
 U 1 1 5F5C5758
 P 8850 5300
 F 0 "U6" H 8450 6200 50  0000 C CNN

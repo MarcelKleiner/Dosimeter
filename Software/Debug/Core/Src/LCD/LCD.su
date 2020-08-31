@@ -1,1 +1,3 @@
 LCD.cpp:11:1:LCD::LCD()	16	static
+LCD.cpp:16:6:void LCD::initLCD()	16	static
+LCD.cpp:22:6:void LCD::LCDWrite(uint8_t, bool)	16	static

@@ -16,16 +16,6 @@ C_SRCS += \
 CPP_SRCS += \
 ../Core/Src/main.cpp 
 
-C_DEPS += \
-./Core/Src/gpio.d \
-./Core/Src/stm32l4xx_hal_msp.d \
-./Core/Src/stm32l4xx_it.d \
-./Core/Src/syscalls.d \
-./Core/Src/sysmem.d \
-./Core/Src/system_stm32l4xx.d \
-./Core/Src/tim.d \
-./Core/Src/usb.d 
-
 OBJS += \
 ./Core/Src/gpio.o \
 ./Core/Src/main.o \
@@ -36,6 +26,16 @@ OBJS += \
 ./Core/Src/system_stm32l4xx.o \
 ./Core/Src/tim.o \
 ./Core/Src/usb.o 
+
+C_DEPS += \
+./Core/Src/gpio.d \
+./Core/Src/stm32l4xx_hal_msp.d \
+./Core/Src/stm32l4xx_it.d \
+./Core/Src/syscalls.d \
+./Core/Src/sysmem.d \
+./Core/Src/system_stm32l4xx.d \
+./Core/Src/tim.d \
+./Core/Src/usb.d 
 
 CPP_DEPS += \
 ./Core/Src/main.d 
