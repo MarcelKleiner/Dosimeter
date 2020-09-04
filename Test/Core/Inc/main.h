@@ -60,14 +60,36 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define MCO_Pin GPIO_PIN_0
 #define MCO_GPIO_Port GPIOF
+#define DB5_Pin GPIO_PIN_1
+#define DB5_GPIO_Port GPIOF
+#define DB0_Pin GPIO_PIN_0
+#define DB0_GPIO_Port GPIOA
+#define DB1_Pin GPIO_PIN_1
+#define DB1_GPIO_Port GPIOA
 #define VCP_TX_Pin GPIO_PIN_2
 #define VCP_TX_GPIO_Port GPIOA
+#define DB2_Pin GPIO_PIN_3
+#define DB2_GPIO_Port GPIOA
+#define DB3_Pin GPIO_PIN_4
+#define DB3_GPIO_Port GPIOA
+#define DB6_Pin GPIO_PIN_1
+#define DB6_GPIO_Port GPIOB
+#define DB4_Pin GPIO_PIN_8
+#define DB4_GPIO_Port GPIOA
+#define E_Pin GPIO_PIN_11
+#define E_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
 #define SWCLK_GPIO_Port GPIOA
 #define VCP_RX_Pin GPIO_PIN_15
 #define VCP_RX_GPIO_Port GPIOA
+#define RS_Pin GPIO_PIN_4
+#define RS_GPIO_Port GPIOB
+#define R_W_Pin GPIO_PIN_5
+#define R_W_GPIO_Port GPIOB
+#define DB7_Pin GPIO_PIN_6
+#define DB7_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

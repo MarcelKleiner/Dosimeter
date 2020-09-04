@@ -92,10 +92,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
 
-
-
-
-
   mainCpp.appMain();
   /* USER CODE END 2 */
 
